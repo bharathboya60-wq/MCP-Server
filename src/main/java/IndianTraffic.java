@@ -1,4 +1,4 @@
-public class IndianTraffic implements CentralTraffic{
+public class IndianTraffic implements CentralTraffic {
     public static void main(String[] args)
     {
             CentralTraffic IT = new IndianTraffic();
