@@ -11,7 +11,13 @@ public class Strings {
             Es = Es + str.charAt(i);
         }
         System.out.println(Es);
-
+        
+        String Fullname = new String("Boya Bharath Kumar");
+        String names[] = Fullname.split(" ");
+		for(String name : names){
+			System.out.println(name);
+		}
     }
+    
 
 }
